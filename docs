@@ -1,0 +1,50 @@
+# 01 — Instalação do Active Directory Certificate Services
+
+## Objetivo
+
+Instalar o role **AD CS (Active Directory Certificate Services)** no Windows Server 2022 via Server Manager.
+
+---
+
+## Passo a Passo
+
+### 1. Acesse o Server Manager
+
+- Clique em **"Type here to search"** na barra de tarefas
+- Digite `Server Manager` e abra o aplicativo
+
+### 2. Adicionar Role
+
+- Clique em **Manage → Add Roles and Features**
+- Clique em **Next** 3 vezes
+
+### 3. Selecionar o Role
+
+- Em **Server Roles**, marque **Active Directory Certificate Services**
+- Clique em **Add Features** na janela pop-up
+- Clique em **Next** 3 vezes
+
+### 4. Confirmar Instalação
+
+- Em **AD CS**, verifique que **Certification Authority** está marcado
+- Clique em **Next** → **Install**
+- Aguarde a conclusão (barra de progresso)
+
+### 5. Iniciar Configuração
+
+- Ao finalizar, clique no link azul: **"Configure Active Directory Certificate Services on the Destination server"**
+
+---
+
+## Resultado Esperado
+
+Mensagem de instalação bem-sucedida:
+```
+Installation succeeded on DC01.aluno.hacker.com
+```
+
+---
+
+## Próxima Etapa
+
+→ [02 — Configurando a CA Raiz](02-configurando-ca-raiz.md)
